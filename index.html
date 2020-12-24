@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>移动端商城</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<script>
+		window.onload = window.onresize = function(){
+	        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+	        var _html = document.getElementsByTagName('html')[0];
+	        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+	    }
+	</script>
+</head>
+<body>
+	<!--header begin-->
+	<header>
+		<div class="top clearfix">
+			<span class="iconfont fl">&#xe679;</span>
+			<h6 class="fl">Woman, Dresses</h6>
+			<span class="iconfont icon-gouwuche2 fr"><i>3</i></span>
+		</div>
+		<div class="btn cearfix">
+			<a href="#" class="btn1 fl">ADD TO WISHLIST</a><a href="#" class="btn2 fr">ADD TO CART</a>
+		</div>
+	</header>
+	<!--header end-->
+	<!--content1 begin-->
+	<div class="content1">
+		<div class="banner">
+			<div>
+				<img src="images/banner.jpg" alt="">
+			</div>
+			<div class="bn_text">
+				<p class="fl">Elegant Pink Dresses</p>
+				<a href="#" class="fr">$605.00</a>
+			</div>
+		</div>
+		<div class="jiahao">
+			<p class="iconfont icon-iconjia-copy"><span>Dessription</span></p>
+		</div>
+	</div>
+	<!--content1 end-->
+	<!--content2 begin-->
+	<div class="content2">
+		<div class="shang">
+			<img src="images/shuidi.jpg" alt=""><span>Colour:</span>
+			<p>Choose a colour for item</p>
+			<ul>
+				<li class="li1"><img src="images/dui.jpg" alt=""></li>
+				<li class="li2"></li>
+				<li class="li3"></li>
+			</ul>
+		</div>
+		<div class="xia">
+			<h3 class="iconfont">&#xe69a;<span>Size:</span></h3>
+			<p>Size available for this item</p>
+			<ul>
+				<li>6</li>
+				<li>8</li>
+				<li>10</li>
+				<li>12</li>
+				<li class="li4">14</li>
+			</ul>
+		</div>
+	</div>
+	<!--content2 end-->
+	<!--content3 begin-->
+	<div class="content3">
+		<div class="a1">
+			<a href="#" class="btn">Add to Cart</a>
+		</div>
+	</div>
+	<!--content3 end-->
+	<!--footer begin-->
+	<footer>
+		<h3>SHARE ON</h3>
+		<ul>
+			<li>
+				<img src="images/a1.jpg" alt="">
+				<span>205</span>
+			</li>
+			<li>
+				<img src="images/a2.jpg" alt="">
+				<span>332</span>
+			</li>
+			<li>
+				<img src="images/a3.jpg" alt="">
+				<span>112</span>
+			</li>
+		</ul>
+	</footer>
+	<!--footer end-->
+</body>
+</html>
